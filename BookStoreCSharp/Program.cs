@@ -16,7 +16,7 @@ int pesoLibro = 860; //g
 double larghezzaLibro = 17.2; //cm
 double altezzaLibro = 17.3; //cm
 double profonditaLibro = 2.6; //cm
-double valutazioneMedia = 4.5; //SU 5.0
+double valutazioneMedia = 4.5; //SU 5
 int numeroRecensioni = 119;
 bool versioneKindle = true;
 bool copertinaFlessibile = true;
@@ -35,7 +35,7 @@ Console.WriteLine("");
 
 Console.WriteLine("Informazioni Amazon:");
 Console.WriteLine("Numero di recensioni: " + numeroRecensioni);
-Console.WriteLine("Valitazione media delle recensioni: " + valutazioneMedia + " / " + maxValutazione + " stelle");
+Console.WriteLine("Valutazione media delle recensioni: " + valutazioneMedia + " / " + maxValutazione + " stelle");
 
 if (versioneKindle)
 {
